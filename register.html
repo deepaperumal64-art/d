@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choco Mart - Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🍫 Choco Mart</h1>
+    <h2>Create Your Account</h2>
+
+    <input type="text" id="name" placeholder="Full Name">
+
+    <input type="email" id="regEmail" placeholder="Email ID">
+
+    <input type="password" id="regPassword" placeholder="Password">
+
+    <input type="date" id="dob">
+
+    <select id="regRole">
+        <option value="buyer">Buyer</option>
+        <option value="seller">Seller</option>
+    </select>
+
+    <button onclick="register()">Create Account</button>
+
+    <p id="regMessage"></p>
+
+    <p>
+        Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
